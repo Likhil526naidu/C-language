@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+int A=1,B=2,C=3,D=4,E=5,F=6,G=7,i=8,j=9;
+printf("%d\n",A+B*C+(D*E)+F*G);
+printf("%d\n",A/B*C-B+A*D/3);
+printf("%d\n",A+++B---A);
+j=(i++)+(++i);
+printf("%d",j);
+}
