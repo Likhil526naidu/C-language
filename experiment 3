@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+  float principal=13750,rate=4,time=3,i;
+  i=(principal*rate*time)/100;
+  printf("The Simple Interest is: %f", i);
+  }
