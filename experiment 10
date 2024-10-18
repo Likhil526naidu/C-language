@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+void main ()
+{
+int telugu=47, english =67, maths=34, science=56,social=78,tot;
+float avg;
+tot = telugu+english+maths+science+social;
+avg =tot/5;
+printf("tot=%d\navg=%.2f",tot,avg);
+}
