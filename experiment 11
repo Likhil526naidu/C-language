@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c,d;
+printf("Enter any four numbers: ");
+scanf("%d %d %d %d",&a,&b,&c,&d);
+if(a>b && a>c && a>d)
+printf("max=%d",a);
+else if(b>c && b>d)
+printf("max=%d",b);
+else if(c>d)
+printf("max=%d",c);
+else
+printf("max=%d",d);
+printf("\n");
+if(a<b && a<c && a<d)
+printf("min=%d",a);
+else if(b<c && b<d)
+printf("min=%d",b);
+else if(c<d)
+printf("min=%d",c);
+else
+printf("min=%d",d);
+}
