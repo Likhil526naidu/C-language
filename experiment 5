@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+  float p=50000,t=3,r=1.5,ci;
+  ci=p*(pow((1+r/100),t));
+printf("Compound Interest is: %.2f",ci);
+}
