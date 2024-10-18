@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+ float u=12,t=5,a=6,s;
+s=u*t+0.5*a*t*t;
+printf("Distance travelled by object is: %.2f",s);
+}
