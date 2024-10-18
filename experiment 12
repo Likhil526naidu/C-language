@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+int units;
+float bill,total_bill,sc,adc; // sc-service charge, adc-
+printf("Enter no.of units consumed: ");
+scanf("%d",&units);
+if(units<=50)
+bill=units*1;
+else if(units<=150)
+bill=50*1+(units-50)*2;
+else if(units<=250)
+bill=50*1+100*2+(units-150)*3;
+else
+bill=50*1+100*2+100*3+(units-250)*5;
+sc=bill*0.03;
+adc=bill*0.02;
+total_bill=bill+sc+adc;
+printf("Bill amount: %.2f \n",bill);
+printf("Service charge: %.2f \n",sc);
+printf("Additional charges: %.2f \n",adc);
+printf("Your Electricity Bill is: %.2f", total_bill);
+}
